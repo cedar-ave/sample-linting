@@ -1,0 +1,6 @@
+extends: existence
+message: "'%s' may be unnecessary."
+ignorecase: true
+level: warning
+tokens:
+  - likely

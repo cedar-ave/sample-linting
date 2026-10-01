@@ -1,0 +1,7 @@
+extends: substitution
+message: 'Verify this use of the word "admin". Can it be updated to "administration" or "administrator"?'
+link: https://docs.gitlab.com/ee/development/documentation/styleguide/index.html
+level: suggestion
+ignorecase: false
+swap:
+  '[Aa]dmin ?\w*': '(?:Admin( Area| Mode)?|[Aa]dminist(ration|rator|rators|er|rative))'

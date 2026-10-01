@@ -1,0 +1,13 @@
+extends: substitution
+message: "Prefer '%s' over '%s'."
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  '(?:Ctrl|control)-click': press Ctrl and click
+  'bottom(?:-)?left': lower left|lower-left
+  'bottom(?:-)?right': lower right|lower-right
+  'sort(?:-|/)?merge': sort|merge
+  'top(?:-)?left': upper left|upper right|upper-left|upper-right
+  'top(?:-)?right': upper left|upper right|upper-left|upper-right

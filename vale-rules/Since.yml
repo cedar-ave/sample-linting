@@ -1,0 +1,7 @@
+extends: substitution
+message: In some usages, '%s' may be a better choice than '%s'.
+level: warning
+ignorecase: false
+# swap maps tokens in form of bad: good
+swap:
+  since: because

@@ -1,0 +1,12 @@
+extends: spelling
+message: "Did you really mean '%s'?"
+custom: true
+filters:
+  - \[.*?\]
+  - \[
+  - (http|https):/(\S+\.(com|net|org|edu|gov)(\/\S+)?)/
+  - _.*?\b
+  - \(\.\./.*?\)
+  - \b[0-9]+.*?\b
+ignore:
+  - Linting/spelling-ignore.txt

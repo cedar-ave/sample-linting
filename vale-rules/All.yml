@@ -1,0 +1,6 @@
+extends: existence
+message: "Is 'all' necessary?"
+ignorecase: true
+level: warning
+tokens:
+  - all

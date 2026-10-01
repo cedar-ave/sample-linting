@@ -1,0 +1,26 @@
+extends: substitution
+message: In some usages, '%s' may be a better choice than '%s'.
+level: warning
+ignorecase: false
+# swap maps tokens in form of bad: good
+swap:
+  allow: enable or you can
+  below : following
+  checkbox: check box
+  click on : click
+  config: configuration
+  deselect: clear
+  desire: want
+  desired: wanted,correct, appropriate
+  double click: double-click
+  enter in: enter
+  etc. : and so on
+  info: information
+  information on: information about
+  internet: Internet
+  log into: log in to
+  may: might or can
+  once: after
+  make sure: ensure
+  refer to: see
+  right click: right-click

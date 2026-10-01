@@ -1,0 +1,40 @@
+{
+  // Rules documentation: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md
+
+  // Disabled rules
+  "MD013": false, // Line length rule
+  "MD032": false, // Blanks around lists
+
+  "proper-names": {
+    "names": ["SQL", "Active Directory", "PowerShell", "URL", "ETL"]
+  },
+
+  // MD003/ATX headings
+  "MD003": {
+    "style": "atx"
+  },
+
+  // MD004 - Unordered list prefix
+  "MD004": {
+    "style": "dash"
+  },
+
+  // Ignore "duplicate title" error from conflicting YAML file heading and H1
+  "single-title": {
+    "front_matter_title": ""
+  },
+
+  // MD033/no-inline-html - Inline HTML
+  "MD033": {
+    // Allowed elements
+    "allowed_elements": ["i", "span"]
+  },
+
+  // MD022/blanks-around-headings/blanks-around-headers - Headings should be surrounded by blank lines
+  "MD022": {
+    // Blank lines above heading
+    "lines_above": 1,
+    // Blank lines below heading
+    "lines_below": 0
+  }
+}

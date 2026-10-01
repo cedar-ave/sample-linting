@@ -1,0 +1,8 @@
+extends: existence
+message: 'Use "default branch" or `main` instead of `master`, when possible.'
+level: warning
+ignorecase: true
+link: https://docs.gitlab.com/ee/development/documentation/styleguide/index.html
+scope: raw
+raw:
+  - '\`master\`'

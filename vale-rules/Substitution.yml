@@ -1,0 +1,21 @@
+extends: substitution
+message: Use '%s' instead of '%s'
+ignorecase: true
+level: warning
+swap:
+  column store: columnstore
+  date time: datetime
+  DEE: data-entry entity
+  data entry entity: data-entry entity
+  docker: Docker
+  EDW Admin: EDWAdmin
+  fileshare: file share
+  file name: filename
+  host name: hostname
+  hot key: hotkey
+  Cozyroc: CozyRoc
+  Github: GitHub
+  Cmdlets: cmdlets
+  CMDLETS: cmdlets
+  Cmdlet: cmdlet
+  CMDLET: cmdlet
