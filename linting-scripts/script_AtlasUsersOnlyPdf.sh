@@ -43,18 +43,3 @@ sed -i 's/href: /href: ..\//g' toc.yml
 
 cd ..
 cd ..
-
-
-
-
-# Build PDF
-# docfx pdf
-
-
-# # CTRL + / to comment/uncomment. Run 1st half alone before generating PDF, then this half alone after.
-# ## Restore original interace-tour-atlas.md from temp folder to rightful place
-# rm articles/atlas interace-tour-atlas.md
-# mv articles/atlas/users-only/temp/interface-tour-atlas.md articles/atlas
-
-# ## Restore original analytics-catalog.md partial from temp folder to rightful place
-# mv articles/atlas/users-only/temp/analytics-catalog.md articles/atlas/includes
