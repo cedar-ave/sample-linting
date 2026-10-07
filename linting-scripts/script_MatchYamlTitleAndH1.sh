@@ -39,12 +39,12 @@ if
 "$file1" =~ "/partials/" ||
 "$file1" =~ "/shared/" ||
 "$file1" =~ "/includes/" ||
-"$file1" =~ "/dos/dos-" ||
+"$file1" =~ "/dao/dao-" ||
 "$file1" =~ "/machine-learning/" ||
 "$file1" =~ "/real-time/" ||
-"$file1" =~ "touchstone" ||
+"$file1" =~ "clearpath" ||
 "$file1" =~ "supported-browsers" ||
-"$file1" =~ "DPSv.*-Ping*" ||
+"$file1" =~ "DS.*-Ping*" ||
 "$file1" =~ "about") ]]
 
 then 

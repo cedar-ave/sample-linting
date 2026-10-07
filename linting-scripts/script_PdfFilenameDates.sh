@@ -1,7 +1,7 @@
 #!/bin/sh
-# This script prepends the DOS version to the filename and appends today's date.
+# This script prepends the DAP version to the filename and appends today's date.
 # Run after generating PDFs via `docfx pdf`.
-version="DOS21.1"
+version="DAP21.1"
 cd ..
 for path in _site_pdf/Docs_articles _site_pdf/Docs_articles api-reference ; do
 cd $path

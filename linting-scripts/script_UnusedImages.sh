@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Delete the CAP/Docs/PlatformDocs/wwwroot directory. Build site locally (in CAP/Docs, run `npm start`). Then run the script at the root of CAP/Docs/PlatformDocs/wwwroot. To bulk delete: In the output log (CAP/Docs/PlatformDocs/wwwroot/find-unused_images.log), search/replace the first part of filepath with `git rm` and paste the entire list in the terminal at the root of CAP/Docs.
+# Delete the DAP/Docs/Clearpath/wwwroot directory. Build site locally (in DAP/Docs, run `npm start`). Then run the script at the root of DAP/Docs/Clearpath/wwwroot. To bulk delete: In the output log (DAP/Docs/Clearpath/wwwroot/find-unused_images.log), search/replace the first part of filepath with `git rm` and paste the entire list in the terminal at the root of DAP/Docs.
 
 # https://gist.github.com/sugarmo/8470598
 

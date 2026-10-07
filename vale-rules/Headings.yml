@@ -9,7 +9,7 @@ indicators:
 exceptions:
   - Azure
   - CLI
-  - DOS
+  - DAP
   - Visual
   - VS
   - Windows

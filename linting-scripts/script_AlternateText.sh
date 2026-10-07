@@ -7,7 +7,7 @@ cd articles
 
 # These pages have image refs embedded in HTML, which breaks the script
 #Atlas
-page1='maintain-dos-home-page.md'
+page1='maintain-dap-home-page.md'
 page2='visualizations.md'
 page3='final-steps.md'
 #IDEA

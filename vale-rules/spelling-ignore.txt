@@ -69,7 +69,6 @@ datamart
 Datamart
 datamarts
 dataprocessing
-dataprocessingdos
 datareader
 datastore
 datastores

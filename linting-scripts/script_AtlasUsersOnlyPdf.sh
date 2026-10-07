@@ -25,8 +25,8 @@ sed -i -e '$alazyshortcut' toc.yml
 sed -i 'N;/troubleshoot-atlas.md/!P;D' toc.yml
 sed -i 'N;/set-permissions-for-atlas.md/!P;D' toc.yml
 sed -i 'N;/hide-source-mart-bindings.md/!P;D' toc.yml
-sed -i 'N;/configuring-dos-marts.md/!P;D' toc.yml
-sed -i 'N;/maintain-dos-home-page.md/!P;D' toc.yml
+sed -i 'N;/configuring-dap-marts.md/!P;D' toc.yml
+sed -i 'N;/maintain-dap-home-page.md/!P;D' toc.yml
 sed -i 'N;/see-analytics-items.md/!P;D' toc.yml
 sed -i 'N;/create-analytics-item.md/!P;D' toc.yml
 sed -i 'N;/health-status.md/!P;D' toc.yml
